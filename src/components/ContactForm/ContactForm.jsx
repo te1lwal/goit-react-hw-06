@@ -35,7 +35,7 @@ const ContactForm = () => {
       .max(50, "Max 50 characters!")
       .matches(onlyLetters, "Only letters!"),
     number: Yup.string()
-      .required("Please enter the phon number")
+      .required("Please enter the phone number")
       .matches(phoneRegExp, "Invalid format"),
     email: Yup.string()
       .notRequired()

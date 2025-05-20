@@ -1,23 +1,20 @@
 .contacts_wrapper {
   margin: 0 auto;
-  width: 230px;
+  width: 100%;
+  padding: 10px;
 }
 
 .contacts_list {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
 }
 
 @media screen and (min-width: 515px) {
-  .contacts_wrapper {
-    width: 100%;
-  }
-
   .contacts_list {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 15px;
   }
 }
