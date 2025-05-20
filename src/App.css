@@ -1,0 +1,36 @@
+body {
+  background-color: #f5f0ff;
+  color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6c3483;
+}
+
+input {
+  border: 2px solid #dcd6f7;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(155, 89, 182, 0.1);
+  max-width: 600px;
+  margin: 40px auto;
+}
